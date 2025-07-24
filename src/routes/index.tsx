@@ -18,10 +18,10 @@ export const router = createBrowserRouter([
                 path: ":id",
                 element: <PokemonDetailsView />,
             },
-            {
-                path: "*",
-                element: <NotFount />,
-            }
         ]
+    },
+    {
+        path: "*",
+        element: <NotFount />,
     }
 ])
