@@ -26,7 +26,7 @@ export default function PokemonDetailsSkeleton() {
 
             <Box sx={{ background: "#fff", p: 2 }}>
                 <Grid container spacing={3}>
-                    <Grid size={{ md: 12, xs: 6 }}>
+                    <Grid size={{ md: 6, xs: 12 }}>
                         <Stack spacing={2} alignItems="center">
                             <Skeleton variant="circular" width={150} height={150} />
                             <Skeleton variant="rectangular" width={120} height={30} />
@@ -34,7 +34,7 @@ export default function PokemonDetailsSkeleton() {
                         </Stack>
                     </Grid>
 
-                    <Grid size={{ md: 12, xs: 6 }}>
+                    <Grid size={{ md: 6, xs: 12 }}>
                         <Stack spacing={2}>
                             {[...Array(3)].map((_, i) => (
                                 <Box key={i}>
