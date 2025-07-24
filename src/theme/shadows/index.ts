@@ -1,0 +1,35 @@
+// src/theme/shadows/index.ts
+
+export const customShadows: [
+    "none", string, string, string, string,
+    string, string, string, string, string,
+    string, string, string, string, string,
+    string, string, string, string, string,
+    string, string, string, string, string
+] = [
+        "none",
+        "rgba(64, 75, 99, 0.1) 0px 3px 30px",
+        "5px 5px 15px 0px rgba(0, 0, 0, 0.05)",
+        "0 8px 32px rgba(164, 113, 106, 0.12)",
+        "0 16px 48px rgba(164, 113, 106, 0.2)",
+        "0px 3px 6px rgba(0,0,0,0.15)",
+        "0px 3px 8px rgba(0,0,0,0.15)",
+        "0px 4px 10px rgba(0,0,0,0.15)",
+        "0px 5px 12px rgba(0,0,0,0.15)",
+        "0px 5px 14px rgba(0,0,0,0.15)",
+        "0px 6px 16px rgba(0,0,0,0.15)",
+        "0px 6px 18px rgba(0,0,0,0.15)",
+        "0px 7px 20px rgba(0,0,0,0.15)",
+        "0px 8px 22px rgba(0,0,0,0.15)",
+        "0px 9px 24px rgba(0,0,0,0.15)",
+        "0px 10px 26px rgba(0,0,0,0.15)",
+        "0px 11px 28px rgba(0,0,0,0.15)",
+        "0px 12px 30px rgba(0,0,0,0.15)",
+        "0px 13px 32px rgba(0,0,0,0.15)",
+        "0px 14px 34px rgba(0,0,0,0.15)",
+        "0px 15px 36px rgba(0,0,0,0.15)",
+        "0px 16px 38px rgba(0,0,0,0.15)",
+        "0px 17px 40px rgba(0,0,0,0.15)",
+        "0px 18px 42px rgba(0,0,0,0.15)",
+        "0px 19px 44px rgba(0,0,0,0.15)",
+    ];
