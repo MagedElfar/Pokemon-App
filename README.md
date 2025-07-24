@@ -8,7 +8,6 @@ A simple web application that allows you to explore Pokémon using the [PokeAPI]
 ## ✨ Features
 
 - 🔍 Browse Pokémon using either pagination or infinite scrolling
-- 🌙 Theme toggle (light & dark mode)
 - 🌀 Lazy loading for views
 - 💥 Graceful error handling with Error Boundaries
 - ❌ Display message when no Pokémon are found
